@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Style du bouton */
+.btn1 {
+    font-size: 1.1em;
+    color: #fff;
+    background: #fb911f;
+    padding: 12px 24px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background: #d87710;
+}
+
+/* Style de la section 'À Propos' */
+.apropos p {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/* Style de la section 'Notre Équipe' */
+.equipes .titre p {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.equipes .contenu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.equipes .contenu .box {
+    width: 320px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.equipes .contenu .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.equipes .contenu .box .imbox {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.equipes .contenu .box .imbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.equipes .contenu .box .text {
+    color: #444;
+    font-style: italic;
+}
+
+.equipes .contenu .box .text h3 {
+    color: #fb911f;
+    margin-top: 20px;
+}  
