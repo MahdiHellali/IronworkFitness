@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning - IronWorks Fitness</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/photos-gratuite/halteres-sol-salle-sport-ai-generative_123827-23744.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Prend toute la hauteur de la fenêtre */
+        }
+        .blur-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://img.freepik.com/photos-gratuite/halteres-sol-salle-sport-ai-generative_123827-23744.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(10px); /* Flou de l'image d'arrière-plan */
+            z-index: -1; /* Met l'image d'arrière-plan derrière le contenu */
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour le contenu */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            text-align: center;
+            color: white;
+        }
+        .programmes {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .programme {
+            width: calc(33.33% - 10px);
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            margin: 15px; /* Espacement de 15 pixels autour de chaque programme */
+            text-align: left; /* Alignement du texte à gauche */
+        }
+        /* Ajoutez d'autres styles CSS pour votre contenu si nécessaire */
+    </style>
+</head>
